@@ -1,2 +1,3 @@
 # common_util_databases
-Common util for many type of databases.
+Declare common util for operation of many kind databases, based on python language.
+Databases are simulited by docker.
