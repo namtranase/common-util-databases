@@ -24,5 +24,9 @@ pip install -r requirements.txt
 ```
 
 ### Run program
+Run docker-compose file to build node databases(require docker installed):
 
+```bash
+docker-compose.yml up
+```
 Run specific file in src and enjoy it!
