@@ -1,3 +1,6 @@
+import logging
+
+import settings
 from src import mysql
 
 def create_database():
