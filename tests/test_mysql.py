@@ -1,6 +1,7 @@
 import logging
 
 import settings
+from src.config.config import read_config_file
 from src import mysql
 
 def create_database():
