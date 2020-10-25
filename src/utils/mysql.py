@@ -5,7 +5,7 @@ Copyright 2020 ASE Laboratory.
 Implement python class for connect with mysql. 
 Support connect, execute query and close when finish.
 """
-import mysql
+import pymysql
 
 class DB():
     def __init__(self, config):
