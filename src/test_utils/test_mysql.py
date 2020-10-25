@@ -1,8 +1,8 @@
 import logging
 
-from src.utils import mysql
-from src.config.config import read_config_file
 import settings
+from src.config.config import read_config_file
+from src.utils import mysql
 
 def create_database(mysql_db):
     pass
