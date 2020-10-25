@@ -2,16 +2,15 @@ import logging
 
 from src.utils import mysql
 from src.config.config import read_config_file
-from src import mysql
 import settings
 
-def create_database(mysql):
+def create_database(mysql_db):
     pass
 
-def insert_data(mysql):
+def insert_data(mysql_db):
     pass
 
-def remove_data(mysql):
+def remove_data(mysql_db):
     pass
 
 def main():
@@ -21,10 +20,10 @@ def main():
 
     logging.debug('Start test mysql application with config: %s', config)
     
-    mysql = mysql.DB(config)
-    create_database(mysql)
-    insert_data(mysql)
-    remove_data(mysql)
+    mysql_db = mysql.DB(config)
+    create_database(mysql_db)
+    insert_data(mysql_db)
+    remove_data(mysql_db)
 
 if __name__ == "__main__":
     main()
