@@ -1,4 +1,4 @@
-# common_util_databases
+# common-util-databases
 
 ## Introduction
 Declare common util for operation of many kind databases, based on python language.
